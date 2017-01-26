@@ -1,1 +1,58 @@
-<h1>HOLA</h1>
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolioApp">
+    <head>
+        <title>Jordi Vilagut | Full Stack Developer</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href='resources/CSS_Reset/reset.css'>
+        <link rel='stylesheet' href='resources/Hover.css/hover.css'>
+        <link rel='stylesheet' href='resources/font-awesome-4.7.0/css/font-awesome.min.css'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link rel='stylesheet' href='assets/styles/styles.css'>
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("user_o6zhBbe4Sv8n7I0wpDlU6");
+            })();
+        </script>
+    </head>
+
+    <body ng-controller="portfolioController">
+        <nav>
+            <div id="links">
+                <a href="#" du-smooth-scroll>{{texts[lang].anchor1}}</a>
+                <a href="#/#bio" du-smooth-scroll>{{texts[lang].anchor2}}</a>
+                <a href="#/#projects" du-smooth-scroll>{{texts[lang].anchor3}}</a>
+                <a href="#/#pricing" du-smooth-scroll>{{texts[lang].anchor4}}</a>
+                <a href="#/#contact" du-smooth-scroll>{{texts[lang].anchor5}}</a>
+            </div>
+            <div id="languages" ng-init="lang = 'english'">
+                <img ng-class="{'active':lang === 'english'}" ng-click="lang = 'english'" class="icon" src="assets/images/english_icon.png" alt="English Language Icon">
+                <img ng-class="{'active':lang === 'deutsch'}" ng-click="lang = 'deutsch'" class="icon" src="assets/images/deutsch_icon.png" alt="German Language Icon">
+                <img ng-class="{'active':lang === 'espanol'}" ng-click="lang = 'espanol'" class="icon" src="assets/images/espanol_icon.png" alt="Spanish Language Icon">
+                <img ng-class="{'active':lang === 'catala'}" ng-click="lang = 'catala'" class="icon" src="assets/images/catala_icon.png" alt="Catalan Language Icon">
+            </div>
+        </nav>
+
+        <ng-view></ng-view>
+
+        <footer>
+            <a  href="https://es.linkedin.com/in/jvilagut" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a  href="https://github.com/jordivilagut" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a  href="http://stackoverflow.com/users/5803704/jordivilagut" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+            <p>	&#169; Jordi Vilagut 2017</p>
+            <a href="assets/files/CV_JordiVilagut_2017.pdf" target="_blank" class="socialBtn hvr-fade"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a  href="https://www.freecodecamp.com/bcnjordi9" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+            <a  href="https://codepen.io/bcnjordi9/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+        </footer>
+
+        <script src="assets/json/projects_json.js"></script>
+        <script src="assets/json/textbodies_json.js"></script>
+        <script src="assets/json/sending_json.js"></script>
+        <script src="resources/AngularJS/angular.js"></script>
+        <script src="resources/AngularJS/angular-route-master/angular-route.js"></script>
+        <script src="resources/AngularJS/angular-scroll-master/angular-scroll.js"></script>
+        <script src="assets/scripts/main.js"></script>
+    </body>
+</html>

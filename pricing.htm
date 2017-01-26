@@ -1,0 +1,50 @@
+<div id="pricingForm" ng-init=" setUpForm()">
+    <main>
+
+        <div ng-class="{'hidden':inquiryProcess === 'sending'}">
+            <h2>You're just one step away from turning your idea into a reality</h2>
+
+            <h3>But first I need you to tell me a bit more!</h3>
+
+            <form>
+                <label>
+                    <p>Product Type:</p>
+                    <select ng-model="inquiry.product" ng-init="inquiry.product='spa'">
+                        <option value="spa">SPA - Single Page Application</option>
+                        <option value="webapp">Serverless Web Application</option>
+                        <option value="webapp2">Web Application with Back End</option>
+                        <option value="ios">Native App iOS</option>
+                        <option value="android">Native App Android</option>
+                    </select>
+                </label>
+                <label> <p>Project Description:</p>
+                    <textarea ng-model="inquiry.description" ng-class="{'inputError':val_description === 'invalid'}" type="text" placeholder="Describe your project in a few lines."></textarea>
+                </label>
+                <label>
+                    <p>Your Name:</p>
+                    <input ng-model="inquiry.name" ng-class="{'inputError':val_name === 'invalid'}" type="text" placeholder="Your Name">
+                </label>
+                <label>
+                    <p>Your Email:</p>
+                    <input ng-model="inquiry.email" ng-class="{'inputError':val_email === 'invalid'}" type="text" placeholder="Your Email">
+                </label>
+                <label>
+                    <p>Your Phone Nr:</p>
+                    <input ng-model="inquiry.phone" type="text" placeholder="Your Phone Nr.">
+                </label>
+                <button id="sendRequest" ng-click="sendEmail()">Request a Quotation 
+                    <i id="sendIcon" class="fa fa-file-text-o" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+
+        <div ng-class="{'hidden':inquiryProcess === 'filling'}">
+            <h2>{{inquiryResult[inquiryStatus].header1}}</h2>
+
+            <img class="inquiryImg" ng-src={{inquiryResult[inquiryStatus].img}} alt="Inquiry Image.">
+
+            <h4>{{inquiryResult[inquiryStatus].header2}}</h4>
+        </div>
+
+    </main>
+</div>

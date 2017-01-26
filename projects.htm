@@ -1,0 +1,36 @@
+<div id=projectDetail>
+    <main>
+        <div id="projectHeader">
+            <img ng-src={{projects[project].image}} alt="Project picture.">
+            <div class="projectInfo">
+                <h2>{{projectHeaders[lang].header1}}</h2>
+                <p>{{projects[project].name}}</p>
+                <h2>{{projectHeaders[lang].header2}}</h2>
+                <p>{{projects[project].updated}}</p>
+                <h2>{{projectHeaders[lang].header3}}</h2>
+                <ul ng-repeat="tech in technologies">
+                    <li>{{tech}}</li>
+                </ul>
+                <h2>{{projectHeaders[lang].header4}}</h2>
+                <p>{{projects[project].platforms}}</p>
+                <a id="projectLink" href={{projects[project].link}} target="_blank" class="hvr-fade2">On GitHub<i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div id="projectFooter">
+            <p>{{projects[project].description[lang]}}</p>
+        </div>
+
+        <h3>{{projectHeaders[lang].header5}}</h3>
+
+        <div class="projectPool">
+            <button ng-click="changeProject('battleship'); scrollUp()" class="project battleship"></button>
+            <button ng-click="changeProject('weather'); scrollUp()" class="project weather"></button>
+            <button ng-click="changeProject('tgif'); scrollUp()" class="project tgif"></button>
+            <button ng-click="changeProject('tictactoe'); scrollUp()" class="project tictactoe"></button>
+            <button ng-click="changeProject('simon'); scrollUp()" class="project simon"></button>
+            <button ng-click="changeProject('nysl'); scrollUp()" class="project nysl"></button>
+        </div>
+    </main>
+</div>
+

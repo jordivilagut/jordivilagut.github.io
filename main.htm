@@ -1,0 +1,126 @@
+<header>
+    <div class="empty"></div>
+    <img class="profilePic" src="assets/images/jordivilagut_profilepic.jpg" alt="Jordi Vilagut profile picture.">
+    <h1>{{texts[lang].greeting}}</h1>
+    <h2>{{texts[lang].description}}</h2>
+    <div class="getStartedBanner">
+        <a href="#/#bio" du-smooth-scroll><img class="hvr-hang" src="assets/images/arrow_down_icon.png" alt="Down arrow icon."></a>
+    </div>
+</header>
+
+<section id="bio">
+
+    <h2>{{texts[lang].aboutTitle}}</h2>
+    <p>{{texts[lang].aboutText1}}</p>
+
+    <p>{{texts[lang].aboutText2}}</p>
+
+    <div class="inlineIcons">
+        <div>
+            <img src="assets/images/writing.png" alt="Icon made by Madebyoliver from www.flaticon.com">
+        </div>
+        <div>
+            <img src="assets/images/analytics-1.png" alt="Icon made by Madebyoliver from www.flaticon.com">
+        </div>
+        <div>
+            <img src="assets/images/graph.png" alt="Icon made by Madebyoliver from www.flaticon.com">
+        </div>
+    </div>
+
+    <p>{{texts[lang].aboutText3}}</p>
+
+    <p>{{texts[lang].aboutText4}}</p>
+
+    <p>{{texts[lang].aboutText5}}</p>
+
+    <p class="emptyParagraph"></p>
+
+    <div class="parallax"><div class="parallaxShadow"></div></div>
+</section>
+
+<section id="projects">
+    <h2>{{texts[lang].projectsTitle}}</h2>
+    <p>{{texts[lang].projectsText1}}</p>
+
+    <p>{{texts[lang].projectsText2}}</p>
+
+    <p class="emptyParagraph"></p>
+
+    <div class="projectPool">
+        <a href="#projects" ng-click="changeProject('battleship'); scrollUp()" class="project hvr-bob battleship">
+            <div class="seeMoreBtn">{{texts[lang].projectBtnText}}</div>
+        </a>
+        <a href="#projects" ng-click="changeProject('weather'); scrollUp()" class="project hvr-bob weather">
+            <div class="seeMoreBtn">{{texts[lang].projectBtnText}}</div>
+        </a>
+        <a href="#projects" ng-click="changeProject('tgif'); scrollUp()" class="project hvr-bob tgif">
+            <div class="seeMoreBtn">{{texts[lang].projectBtnText}}</div>
+        </a>
+        <a href="#projects" ng-click="changeProject('tictactoe'); scrollUp()" class="project hvr-bob tictactoe">
+            <div class="seeMoreBtn">{{texts[lang].projectBtnText}}</div>
+        </a>
+        <a href="#projects" ng-click="changeProject('simon'); scrollUp()" class="project hvr-bob simon">
+            <div class="seeMoreBtn">{{texts[lang].projectBtnText}}</div>
+        </a>
+        <a href="#projects" ng-click="changeProject('nysl'); scrollUp()" class="project hvr-bob nysl">
+            <div class="seeMoreBtn">{{texts[lang].projectBtnText}}</div>
+        </a>
+    </div>
+</section>
+
+<section id="pricing" class="parallax2">
+    <div class="parallaxShadow2">
+        <h2>{{texts[lang].pricingTitle}}</h2>
+        <div id="pricingOptions">
+            <div id="spaPricing">
+                <h3>{{texts[lang].pricingProduct1}}</h3>
+                <div class="priceTag">
+                    <p class="priceText">{{texts[lang].pricingText1}}</p>
+                    <p class="price">249<span class="currency">.00 €</span></p>
+                </div>
+                <ul>
+                    <li>{{texts[lang].product1bp1}}</li>
+                    <li>{{texts[lang].product1bp2}}</li>
+                    <li>{{texts[lang].product1bp3}}</li>
+                    <li>{{texts[lang].product1bp4}}</li>
+                </ul>
+                <a href="#pricing" ng-click="scrollUp()" class="inquiryBtn hvr-float">{{texts[lang].product1btn}}</a>
+            </div>
+            <div id="opPricing">
+                <h3>{{texts[lang].pricingProduct2}}</h3>
+                <div class="priceTag">
+                    <p class="inquiryText">{{texts[lang].pricingText2}}</p>
+                </div>
+                <ul>
+                    <li>{{texts[lang].product2bp1}}</li>
+                    <li>{{texts[lang].product2bp2}}</li>
+                    <li>{{texts[lang].product2bp3}}</li>
+                    <li>{{texts[lang].product2bp4}}</li>
+                </ul>
+                <a href="#pricing" ng-click="scrollUp()" class="inquiryBtn hvr-float">{{texts[lang].product2btn}}</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h3>{{texts[lang].goodbyeText}}</h3>
+
+    <div class="contactBody">
+        <div class="socialLinks">
+            <a href="https://es.linkedin.com/in/jvilagut" target="_blank" class="socialBtn hvr-fade">LinkedIn <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="assets/files/CV_JordiVilagut_2017.pdf" target="_blank" class="socialBtn hvr-fade">CV <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="https://github.com/jordivilagut" target="_blank" class="socialBtn hvr-fade">GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="http://stackoverflow.com/users/5803704/jordivilagut" target="_blank" class="socialBtn hvr-fade">Stack Overflow <i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+            <a href="https://www.freecodecamp.com/bcnjordi9" target="_blank" class="socialBtn hvr-fade">Free Code Camp <i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+            <a href="https://codepen.io/bcnjordi9/" target="_blank" class="socialBtn hvr-fade">CodePen <i class="fa fa-codepen" aria-hidden="true"></i></a>
+        </div>
+        <div class="profileInfo">
+            <img class="profilePic" src="assets/images/jordivilagut_ny2.jpg" alt="Jordi Vilagut Treserra">
+            <p><strong>Jordi Vilagut Treserra</strong></p>
+            <p>616 78 46 17</p>
+            <p>vilagutjordi@gmail.com</p>
+        </div>
+    </div>
+</section>
+
