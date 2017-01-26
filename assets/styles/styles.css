@@ -673,10 +673,14 @@ ng-view #pricingForm {
 
     .getStartedBanner {
         position: absolute;
-        bottom: 10px;
+        bottom: 0;
         width: 100%;
         opacity: 0.3;
     }
+    
+    .getStartedBanner img {
+    padding: 200px 50px 10px 50px;
+}
 
     .parallax {
         background-attachment: scroll;
