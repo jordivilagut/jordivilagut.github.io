@@ -209,6 +209,11 @@ section#bio {
     background-size: cover;
 }
 
+.linkTo {
+    text-decoration: none;
+    color: palevioletred;
+}
+
 /* PROJECTS SECTION CSS */
 
 section#projects {
