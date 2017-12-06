@@ -2,8 +2,7 @@ var textBodies = {
     english: {
         anchor1: "Home",
         anchor2: "Bio",
-        anchor3a: "Projects",
-        anchor3b: "Web",
+        anchor3: "Projects",
         anchor4: "Pricing",
         anchor5: "Contact",
         greeting: "Hi, I'm Jordi Vilagut.",
@@ -39,8 +38,7 @@ var textBodies = {
     deutsch: {
         anchor1: "Startseite",
         anchor2: "Bio",
-        anchor3a: "Projekte",
-        anchor3b: "Web",
+        anchor3: "Projekte",
         anchor4: "Tarifs",
         anchor5: "Kontakte",
         greeting: "Hallo, Ich bin Jordi Vilagut.",
@@ -76,8 +74,7 @@ var textBodies = {
     espanol: {
         anchor1: "Inicio",
         anchor2: "Bio",
-        anchor3a: "Proyectos",
-        anchor3b: "Web",
+        anchor3: "Proyectos",
         anchor4: "Tarifas",
         anchor5: "Contacto",
         greeting: "Hola, soy Jordi Vilagut.",
@@ -113,8 +110,7 @@ var textBodies = {
     catala: {
         anchor1: "Inici",
         anchor2: "Bio",
-        anchor3a: "Projectes",
-        anchor3b: "Web",
+        anchor3: "Projectes",
         anchor4: "Tarifes",
         anchor5: "Contacte",
         greeting: "Hola, sóc en Jordi Vilagut.",
