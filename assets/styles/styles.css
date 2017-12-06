@@ -176,7 +176,7 @@ footer p {
 .inlineIcons {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 20px;
     align-items: center;
 }
 
@@ -211,7 +211,12 @@ section#bio {
 
 .linkTo {
     text-decoration: none;
-    color: palevioletred;
+    color: darkorange;
+}
+
+.bioEmoji {
+    font-size: 30px;
+    margin: 20px;
 }
 
 /* PROJECTS SECTION CSS */

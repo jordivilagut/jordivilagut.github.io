@@ -1,0 +1,44 @@
+{
+  "_from": "css-emojis",
+  "_id": "css-emojis@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Go5KXzEm9J7TSHkMr73Y4XIW1ZY=",
+  "_location": "/css-emojis",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "css-emojis",
+    "name": "css-emojis",
+    "escapedName": "css-emojis",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/css-emojis/-/css-emojis-0.1.0.tgz",
+  "_shasum": "1a8e4a5f3126f49ed348790cafbdd8e17216d596",
+  "_spec": "css-emojis",
+  "_where": "C:\\Users\\jordivt\\OneDrive\\JORDI VILAGUT TRESERRA\\CODE\\personal-portfolio\\jordivilagut.github.io\\resources",
+  "author": {
+    "name": "AmitMY"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Emojis for HTML using CSS",
+  "keywords": [
+    "emojis",
+    "css",
+    "emojis"
+  ],
+  "license": "MIT",
+  "main": "emojis.css",
+  "name": "css-emojis",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
