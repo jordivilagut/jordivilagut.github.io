@@ -256,6 +256,21 @@ section#projects {
     text-align: center;
 }
 
+.parkimeter {
+    background: url("../images/parkimeter.png");
+    background-size:cover;
+}
+
+.gymforless {
+    background: url("../images/gymforless.jpg");
+    background-size:cover;
+}
+
+.grafiques {
+    background: url("../images/grafiques.png");
+    background-size:cover;
+}
+
 .battleship {
     background: url("../images/battleship_project2.jpg");
     background-size:cover;

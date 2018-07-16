@@ -95,6 +95,54 @@ var projects = {
             espanol: "La NYSL (Northside Youth Soccer League) es una liga de fútbol para niños del área de Chicago. La liga quería crear una web online para ser más accesible a padres y jugadores, y ofrecer información sobre los partidos, sus localizaciones y resultados. La NYSL App es una aplicación totalmente responsiva, accesible desde cualquier smartphone con tecnología Android o iOS. La aplicación funciona sin servidor gracias a la utilidad de Google Firebase, que funciona como base de datos. La información de la web se renderiza dinámicamente gracias a Angular.js.",
             catala: "La NYSL (Northside Youth Soccer League) és una lliga de futbol per a nens de l'àrea de Chicago. La lliga volia ser present online per a ser més accessible a pares i jugadors, i oferir informació dels partits, ubicacions i resultats. La NYSL App és una aplicació totalment responsiva, accessible des de qualsevol smartphone amb tecnologies Android o iOS. L'aplicació funciona sense servidor gràcies a la utilitat de Google Firebase, que funciona com a base de dades. La informació de l'App es mostra dinàmicament gràcies a Angular.js."
         }
+    },
+    parkimeter: {   
+        id: 0006,
+        name: "Parkimeter",
+        image: "assets/images/parkimeter.png",
+        updated: "16/07/2018",
+        technologies: ["Java", "Swift", "Kotlin"],
+        platforms: "Android/iOS",
+        display: "none",
+        link: "https://github.com/jordivilagut",
+        description: {
+            english: "Parkimeter is an online rotation parking platform. Its main goal consists in helping companies, freelancers and tourists find a way to park comfortably in the city while saving money at the same time.",
+            deutsch: "Parkimeter is an online rotation parking platform. Its main goal consists in helping companies, freelancers and tourists find a way to park comfortably in the city while saving money at the same time.",
+            espanol: "Parkimeter es una plataforma virtual de aparcamientos de rotación que nace con la intención de ayudar a las empresas, autónomos y turistas a encontrar el aparcamiento diario y garantizar un mayor ahorro y comodidad.",
+            catala: "Parkimeter és una plataforma virtual d'aparcaments de rotació que neix amb l'intenció d'ajudar a les empreses, autònoms i turistes a trobar aparcament diàri i garantir un major estalvi i comoditat."
+        }
+    },
+    gymforless: {   
+        id: 0007,
+        name: "GymForLess",
+        image: "assets/images/gymforless.jpg",
+        updated: "16/07/2018",
+        technologies: ["Java", "Javascript", "Scala"],
+        platforms: "Web/Android/iOS",
+        display: "none",
+        link: "https://github.com/jordivilagut",
+        description: {
+            english: "G4L is a gym platform that offers monthly passes to multiple gyms in different european cities. There are different kinds of gyms in the platform, from swimming pools to crossfit centers.",
+            deutsch: "G4L is a gym platform that offers monthly passes to multiple gyms in different european cities. There are different kinds of gyms in the platform, from swimming pools to crossfit centers.",
+            espanol: "G4L es una plataforma de gimnasios que oferta suscripciones mensuales para acceder a múltiples gimnasios en diferentes ciudades europeas y de forma ilimitada. Los gimnasios con los que cuenta la plataforma son de todo tipo e incluyen desde piscinas a centros de crossfit.",
+            catala: "G4L és una plataforma de gimnasos que oferta suscripcions mensuals per accedir a múltiples gimnasos en diferents ciutats europees de forma il·limitada. Els gimnasos amb els que compta la plataforma són de tot tipus i inclouen des de piscines fins a centres de crossfit."
+        }
+    },
+    grafiques: {   
+        id: 0008,
+        name: "Grafiques Cirera",
+        image: "assets/images/grafiques.png",
+        updated: "16/07/2018",
+        technologies: ["HTML", "Javascript", "CSS"],
+        platforms: "Web/Android/iOS",
+        display: "none",
+        link: "https://github.com/jordivilagut",
+        description: {
+            english: "Gràfiques Cirera is a print shop founded in 1971. They provide a wide range of printing services: posters, banners, textile, etc. They also provide graphic design and other services.",
+            deutsch: "Gràfiques Cirera is a print shop founded in 1971. They provide a wide range of printing services: posters, banners, textile, etc. They also provide graphic design and other services.",
+            espanol: "La empresa Gráficas Cirera se fundó en 1961 ofreciendo los servicios de tipografía e impresión manual. Comenzó a dedicándose a la impresión offset de pequeño y gran formato en 1971. La renovación tecnológica constante les ha permitido mejorar el servicio y la calidad de sus productos. Actualmente ofrece servicios de impresión offset y digital, serigrafía, tampografía y rotulación. También se dedica al diseño gráfico y la pre impresión, que complementa con una amplia sección de acabados y manipulados.",
+            catala: "L'empresa Gràfiques Cirera es va fundar l'any 1961 oferint els serveis de tipografia i impressió manual. Va començar dedicant-se a la impressió offset l'any 1971 de petit i gran format. Actualment ofereix serveis d'impressió offset i digital, serigrafía, tampografía i rotulació. També es dedica al disseny gràfic i la pre impressió, que complementa amb una amplia secció d'acabats i manipulats."
+        }
     }
 }
 
